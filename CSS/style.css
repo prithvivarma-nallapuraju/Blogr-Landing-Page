@@ -138,3 +138,67 @@ header div a {
     border: 1px solid white;
 }
 /***************** End of Hero Design CSS ******************/
+
+
+/**
+*
+*   Design for the future section CSS
+*
+*
+*/
+
+.design {
+    font-family: 'Overpass', sans-serif;
+    padding: 100px;
+}
+
+.design  h1{
+    text-align: center;
+    font-size: 40px;
+    color: hsl(208, 49%, 24%);
+}
+
+.design .second-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.design .second-row .left,
+.design .second-row .right{
+    justify-content: space-between;
+}
+
+.design .second-row .right{
+    margin-right: -300px;
+}
+.design .second-row .right img{
+    width: 700px;
+    overflow: hidden;
+}
+
+
+.design .second-row .left{
+    padding: 100px 120px 0 0 ;
+}
+
+.design .second-row .left h6{
+    font-size: 22px;
+    color: hsl(208, 49%, 24%);
+    padding: 45px 0 0 0;
+}
+
+.design .second-row .left p {
+    padding: 15px 0;
+    font-family: 'Overpass';
+    line-height: 32px;
+    font-weight: 300;
+    color: hsl(207, 13%, 34%);
+}
+
+
+
+
+
+
+
+/***************** End of Design for the future section CSS ******************/
