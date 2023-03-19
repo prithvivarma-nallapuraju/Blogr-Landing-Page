@@ -181,13 +181,15 @@ header div a {
     padding: 100px 120px 0 0 ;
 }
 
-.design .second-row .left h6{
+.design .second-row .left h6,
+.unkown-section .text-unknown-section h6{
     font-size: 22px;
     color: hsl(208, 49%, 24%);
     padding: 45px 0 0 0;
 }
 
-.design .second-row .left p {
+.design .second-row .left p,
+.unkown-section .text-unknown-section p {
     padding: 15px 0;
     font-family: 'Overpass';
     line-height: 32px;
@@ -250,3 +252,31 @@ header div a {
 
 
 /***************** End of State of the Art Infrastructure section CSS ******************/
+
+
+/**
+*
+*   Unknown Section CSS
+*
+*
+*/
+
+
+.unkown-section {
+    display: flex;
+    margin: 150px 0;
+   
+}
+
+.unkown-section img{
+    margin-left: -100px;
+    height: 500px;
+    width: 1500px;
+}
+
+
+.unkown-section .text-unknown-section {
+    margin: 30px 100px;
+}
+
+/***************** End of Unknown section CSS ******************/
